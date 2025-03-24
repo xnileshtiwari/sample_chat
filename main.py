@@ -56,7 +56,7 @@ def save_feedback(user_input, assistant_response, feedback_type):
         json.dump(existing_data, f, indent=2)
 
 # App title
-st.title("Idea Spark ⚡")
+st.title("✨ Idea Spark")
 
 # Sidebar for settings
 with st.sidebar:
